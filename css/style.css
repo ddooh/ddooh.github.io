@@ -1,1 +1,72 @@
 @charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&family=Inter&family=Noto+Sans+KR&display=swap');
+
+
+:root {
+    --primary-bg-color: #F3F3F3;
+    --color-white : #fff;
+    --color-light-gray : #a0a0a0;
+    --color-dark-gray : #333;
+    --color-black : #000;
+}
+
+/* reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+button {
+    cursor: pointer;
+}
+body {
+    font-family: 'Noto Sans KR','Inter';
+}
+
+/* layout */
+
+.inner {
+    min-width: 340px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 2rem 0 4rem;
+}
+.flex {
+    display: flex;
+}
+
+/* header */
+header #logo img {
+    width: 50px;
+}
+.header-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.nave__list {
+    line-height: 50px;
+}
+.nav__item {
+    margin-right: 1.5rem;
+    font-size: .8rem;
+}
+
+
