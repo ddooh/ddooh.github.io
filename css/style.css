@@ -69,4 +69,17 @@ header #logo img {
     font-size: .8rem;
 }
 
-
+/* home */
+section.home {
+    /* background: url(../img/home-bg-img.jpg) no-repeat center/cover; */
+    background: var(--primary-bg-color);
+    height: 100vh;
+}
+.home-container {
+    position: relative;
+}
+.home-desc {
+    position: absolute;
+    top: 45%;
+    left: 70%;
+}
