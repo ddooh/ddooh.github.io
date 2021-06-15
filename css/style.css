@@ -78,6 +78,21 @@ section.home {
 .home-container {
     position: relative;
 }
+.home-title__first {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: var(--color-white);
+}
+.home-title__first:after {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    background: var(--color-white);
+    width: 5px;
+    height: 300px;
+} 
 .home-desc {
     position: absolute;
     top: 45%;
