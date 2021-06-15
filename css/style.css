@@ -88,11 +88,23 @@ section.home {
     content: '';
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 85%;
     background: var(--color-white);
     width: 5px;
-    height: 300px;
+    height: 260px;
 } 
+
+.home-title__second{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-title__third{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .home-desc {
     position: absolute;
     top: 45%;
