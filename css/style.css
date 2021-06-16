@@ -78,7 +78,7 @@ header #logo img {
 .home-container img {
     margin-top: -10%;
 }
-.home-title__first {
+/* .home-title__first {
     position: absolute;
     top: 5%;
     left: 28%;
@@ -125,7 +125,7 @@ header #logo img {
     width: 170px;
     background: var(--color-black);
     border-radius: 0 5px 5px 0;
-}
+} */
 .home-desc {
     position: absolute;
     top: 30%;
