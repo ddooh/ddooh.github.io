@@ -52,9 +52,7 @@ body {
 }
 
 /* header */
-header {
-    border: 1px solid #000;
-}
+
 header #logo img {
     width: 50px;
 }
@@ -79,9 +77,6 @@ section.home {
 }
 .home-container {
     position: relative;
-    /* top: -10%;
-    left: 0;
-    border: 1px solid #000; */
 }
 .home-title__first {
     position: absolute;
@@ -97,6 +92,7 @@ section.home {
     background: var(--color-white);
     width: 5px;
     height: 200px;
+    border-radius: 5px 5px 0 0;
 } 
 .home-title__second{
     position: absolute;
@@ -112,6 +108,7 @@ section.home {
     background: var(--color-light-gray);
     width: 5px;
     height: 200px;
+    border-radius: 0 0  5px 5px;
 }
 .home-title__third{
     position: absolute;
@@ -127,6 +124,7 @@ section.home {
     height: 5px;
     width: 200px;
     background: var(--color-black);
+    border-radius: 0 5px 5px 0;
 }
 .home-desc {
     position: absolute;
