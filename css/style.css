@@ -1,13 +1,16 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@800&family=Inter&family=Noto+Sans+KR&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Noto+Sans+KR:wght@300&display=swap');
 :root {
     --primary-bg-color: #F3F3F3;
     --color-white : #fff;
     --color-light-gray : #a0a0a0;
     --color-dark-gray : #333;
     --color-black : #000;
+    --color-red : #d75959;
+    --color-yellow : #f5c463;
+    --color-green : #9ccd7e;
+    --color-blue : #5ca7db;
 }
 
 /* reset */
@@ -41,7 +44,7 @@ body {
 
 .inner {
     min-width: 340px;
-    max-width: 768px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 2rem 0 4rem;
 }
@@ -57,11 +60,11 @@ header #logo img {
     width: 50px;
 }
 .header-inner {
-    max-width: 960px;
+    max-width: 1140px;
     margin: 0 auto;
     justify-content: space-between;
 }
-.nave__list {
+.nav__list {
     line-height: 50px;
 }
 .nav__item {
@@ -162,6 +165,7 @@ header #logo img {
 }
 .about-container__item h1 {
     text-transform: uppercase;
+    margin-bottom: .5rem;
 }
 
 .about-img {
@@ -175,4 +179,18 @@ header #logo img {
     border: 1px solid #000;
     background: var(--primary-bg-color);
     border-radius: 8px;
+}
+
+
+/* skill */
+.about-skill {
+    margin-top: 150px;
+}
+.progressbar:not(.circle) svg,
+.progressbar:not(.circle) svg path {
+    border-radius: 20px;
+}
+
+.progressbar svg path:first-child {
+    stroke: rgba(var(--color-black));
 }

@@ -4,10 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./js/progressbar.js"></script>
 <script src="./js/script.js"></script>
 <title>kimdoyoung portfolio</title>
 </head>
@@ -19,7 +24,7 @@
                 <img src="./img/D-logo.png" alt="">
             </a>
             <class class="nav__container">
-                <ul class="nave__list flex">
+                <ul class="nav__list flex">
                     <li class="nav__item">
                         <a href="#">HOME</a>
                     </li>
@@ -68,7 +73,7 @@
                 <p>E-mail : ytyle@gmail.com</p>
             </div>
             <div class="about-container__item">
-                <h1>edcation</h1>
+                <h1>education</h1>
                 <p>2014. 02 계명대학교 패션디자인 졸업</p>
                 <p>2021. 07 디지털디자인(웹디자인)구직자 양성과정 수료</p>
             </div>
@@ -85,8 +90,45 @@
                 <i class="uil uil-file-download-alt"></i>
             </a>
         </div>
-        <div class="about-skill">
+    </section>
 
+    <!-- about-skills -->
+    <section class="skills inner">
+        <div class="about-skill skill-container">
+            <div class="skill-inner">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <h1 class="title-color text-center">
+                            my skills
+                        </h1>
+                        <div class="row text-center">
+                            <div class="col-lg-3">
+                                <div class="progressbar circle blue" data-value="85"></div>
+                                <h5>PHOTOSHOP</h5>
+                                <p>lorem</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="progressbar circle green" data-value="85"></div>
+                                <h5>ILLUSTRATOR</h5>
+                                <p>lorem</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="progressbar circle red" data-value="80"></div>
+                                <h5>HTML5/css3</h5>
+                                <p>lorem</p>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="progressbar circle yellow" data-value="75"></div>
+                                <h5>JS/jQuery</h5>
+                                <p>lorem</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+    
         </div>
 
     </section>
