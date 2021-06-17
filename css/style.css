@@ -182,11 +182,11 @@ header #logo img {
 
 
 /* skill */
-.progress-list {
+/* .progress-list {
 margin: 0;
 padding: 0;
 list-style: none;
-}
+} */
 
 .progress-list li .line {
 position: relative;
@@ -253,15 +253,13 @@ stroke: var(--color-green)
 stroke: var(--color-blue)
 }
 
-h5{
+.skill-container p{
     background: transparent;
     padding: 10px;
     width: 75%;
     margin: 0 auto;
     border-radius: 50px;
-    border: 2px solid #ebebeb;
+    border: 2px solid var(--color-light-gray);
     font-size: 17px;
-}
-p{
-    margin-top: 25px;
+    margin-top: 1rem;
 }
