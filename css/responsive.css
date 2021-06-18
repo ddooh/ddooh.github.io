@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@media (max-width:768px) {
+    .l-col-tablet-1-6 { width: 16.66666666667%; }
+    .l-col-tablet-2-6 { width: 33.33333333333%; }
+    .l-col-tablet-3-6 { width: 50%; }
+    .l-col-tablet-4-6 { width: 66.66666666667%; }
+    .l-col-tablet-5-6 { width: 483.33333333333%; }
+    .l-col-tablet-6-6 { width: 100%; }
+
+}
+@media (max-width:568px) {
+    .l-col-mobile-1-6 { width: 16.66666666667%; }
+    .l-col-mobile-2-6 { width: 33.33333333333%; }
+    .l-col-mobile-3-6 { width: 50%; }
+    .l-col-mobile-4-6 { width: 66.66666666667%; }
+    .l-col-mobile-5-6 { width: 483.33333333333%; }
+    .l-col-mobile-6-6 { width: 100%; }   
+}
