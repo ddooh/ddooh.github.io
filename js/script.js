@@ -49,20 +49,27 @@ $(document).ready(function() {
 			offset: "100%"
 		})
 	});
+
+	$('.design__item-button').click(function(e){
+		e.preventDefault();
+		$(this).siblings('.design__modal').show();
+	})
+	$('.modal__close').click(function(){
+	$('.design__modal').hide();
+	})
+	$('.design__modal').click(function(e){
+	if(e.target === e.currentTarget){
+		$(this).hide();
+	}
+	})
+
+	$('.custom__slider').slick({
+        dots:true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+
 });
 
-
-// $('.design__item-button').click(function(e){
-// 	e.preventDefault();
-// 	$(this).siblings('.design__modal').show();
-// })
-// $('.modal__close').click(function(){
-// $('.design__modal').hide();
-// })
-// $('.design__modal').click(function(e){
-// if(e.target === e.currentTarget){
-// 	$(this).hide();
-// }
-// })
 
 

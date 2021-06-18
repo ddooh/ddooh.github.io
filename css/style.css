@@ -310,7 +310,6 @@ section.design {
 }
 
 .design-container__desc a{
-    text-decoration: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -334,4 +333,143 @@ section.design {
     color: var(--primary-bg-color);
 }
 
+
+.design__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: var(--z-modal);
+    background: rgba(0,0,0,0.2);
+    display: none;
+}
+.design__modal-content {
+    padding: 1rem;
+    border-radius: .5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background: var(--color-white);
+}
+.design__modal-content i {
+    color: var(--color-dark-gray);
+    font-size: 2rem;
+}
+.modal__close {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* web */
+
+.slick__button {
+    width: 150px;
+    
+}
+.slider__button:hover {
+    background: #012129;
+}
+.custom__slider {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.slider__content {
+    display: flex;
+}
+.slider__img {
+    flex: 1;
+    padding: 1rem;
+}
+.slider__img img {
+    border-radius: .5rem;
+}
+.slider__desc {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 3rem;
+}
+.slider__desc p {
+    margin: 1rem 0;
+}
+.slider__buttons {
+    display: flex;
+    justify-content: center;
+}
+.slick__button:first-child {
+    margin-right: 1rem;
+}
+
+/* arrow */
+.slick-prev,
+.slick-next
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.slick-prev {
+    left: -3rem;
+}
+.slick-next {
+    right: -3rem;
+}
+.slick-prev:after,
+.slick-next:after{
+    font-size: 3rem;
+    color: var(--color-dark-gray);
+}
+.slick-prev:after,
+.slick-next:after{
+    font-family: "unicons-line";
+}
+.slick-prev:after {
+    content: '\ec49';
+}
+.slick-next:after {
+    content: '\eb9f';
+}
+
+/* progress */
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+/* active된 dot */
+.slick-dots li.slick-active button {
+    background: var(--color-dark-gray);
+}
+/* 나머지 dot */
+.slick-dots li {
+    margin-right: .5rem;
+    
+}
+.slick-dots li button {
+    background: #666;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 0;
+    border: none;
+    cursor: pointer;
+}
 
