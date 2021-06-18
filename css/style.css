@@ -37,8 +37,16 @@ button {
 }
 body {
     font-family: 'Inter', sans-serif;
-    font-family: 'Noto Sans KR', sans-serif;
 }
+
+/* grid system */
+.l-col-1-6 { width: 16.66666666667%; }
+.l-col-2-6 { width: 33.33333333333%; }
+.l-col-3-6 { width: 50%; }
+.l-col-4-6 { width: 66.66666666667%; }
+.l-col-5-6 { width: 483.33333333333%; }
+.l-col-6-6 { width: 100%; }
+
 
 /* layout */
 
@@ -55,6 +63,9 @@ body {
 /* header */
 header {
     z-index: 1;
+    position: fixed;
+    left: 0;
+    width: 100%;
 }
 header #logo img {
     width: 50px;
@@ -79,7 +90,7 @@ header #logo img {
     z-index: -1;
 }
 .home-container img {
-    margin-top: -10%;
+    margin-top: -5%;
 }
 .home-desc {
     position: absolute;
@@ -177,80 +188,79 @@ header #logo img {
     left: 60%;
     padding: .5rem;
     background: var(--primary-bg-color);
-    border-radius: 8px;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
 }
 
 
 /* skill */
-/* .progress-list {
-margin: 0;
-padding: 0;
-list-style: none;
-} */
 
+.skill-container {
+    margin-top: -20px;
+}
 .progress-list li .line {
-position: relative;
+    position: relative;
 }
 .progressbar:not(.circle) svg,
 .progressbar:not(.circle) svg path {
-border-radius: 20px;
+    border-radius: 20px;
 }
 .progressbar svg path:first-child {
-stroke: rgba(var(--rgb-black), 0.09);
+    stroke: rgba(var(--rgb-black), 0.09);
 }
 .progressbar.border {
-border: 1px solid transparent;
-box-sizing: border-box;
+    border: 1px solid transparent;
+    box-sizing: border-box;
 }
 .progressbar.border svg path:first-child {
-stroke: transparent;
+    stroke: transparent;
 }
 .progressbar.line svg {
-height: 5px;
+    height: 5px;
 }
 .progressbar.line.border svg {
-height: 4px;
+    height: 4px;
 }
 .progressbar.circle {
-position: relative;
-margin: 0 auto 30px;
+    position: relative;
+    margin: 0 auto 25px;
 }
 .progressbar.circle {
-width: 170px;
-height: 85px;
+    width: 170px;
+    height: 85px;
 }
 .progressbar.circle .progressbar-text {
-position: absolute;
-width: 100%;
-height: 100%;
-top: 0;
-left: 0;
-margin: 0;
-font-size: 40px;     
-display: flex;     
-align-items: flex-end;     
-justify-content: center;
-font-weight: bold;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: 40px;     
+    display: flex;     
+    align-items: flex-end;     
+    justify-content: center;
+    font-weight: bold;
 }
 .progressbar.circle .progressbar-text:after {
-content: "%";
-display: block;
-font-size: 20px;
-padding-left: 2px;
+    content: "%";
+    display: block;
+    font-size: 20px;
+    padding-left: 2px;
 }
 
 .progressbar.red svg path:last-child {
-stroke: var(--color-red)
+    stroke: var(--color-red)
 }
 .progressbar.yellow svg path:last-child {
-stroke: var(--color-yellow)
+    stroke: var(--color-yellow)
 }
 .progressbar.green svg path:last-child {
-stroke: var(--color-green)
+    stroke: var(--color-green)
 }
-
 .progressbar.blue svg path:last-child {
-stroke: var(--color-blue)
+    stroke: var(--color-blue)
 }
 
 .skill-container p{
@@ -262,4 +272,10 @@ stroke: var(--color-blue)
     border: 2px solid var(--color-light-gray);
     font-size: 17px;
     margin-top: 1rem;
+}
+
+/* design */
+
+.design-container__item {
+    float: left;
 }
