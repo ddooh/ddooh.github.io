@@ -60,6 +60,12 @@ body {
     display: flex;
 }
 
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 /* header */
 header {
     z-index: 1;
@@ -94,7 +100,7 @@ header #logo img {
 }
 .home-desc {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 66%;
 }
 
@@ -276,6 +282,20 @@ header #logo img {
 
 /* design */
 
+section.design {
+    background: var(--primary-bg-color);
+}
+.design-container {
+    text-align: center;
+    border: 1px solid #000;
+    padding-top: 3rem;
+}
 .design-container__item {
     float: left;
+    padding: 0 .5rem;
+    margin-top: 3rem;
 }
+.design-container__item img {
+    border-radius: 10px;
+}
+

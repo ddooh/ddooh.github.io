@@ -49,9 +49,4 @@ $(document).ready(function() {
 			offset: "100%"
 		})
 	});
-	$('.counter .value').counterUp({
-		delay: 50,
-		time: 1000
-	});
-	$(".countdown").countdown();
 });
