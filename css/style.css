@@ -11,9 +11,6 @@
     --color-green : #9ccd7e;
     --color-blue : #5ca7db;
 
-    --z-tooltip: 10;
-    --z-fixed: 100;
-    --z-modal: 1000;
 }
 
 /* reset */
@@ -340,7 +337,7 @@ section.design {
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: var(--z-modal);
+    z-index: 999;
     background: rgba(0,0,0,0.2);
     display: none;
 }
