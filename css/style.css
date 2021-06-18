@@ -10,6 +10,10 @@
     --color-yellow : #f5c463;
     --color-green : #9ccd7e;
     --color-blue : #5ca7db;
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
 }
 
 /* reset */
@@ -329,4 +333,5 @@ section.design {
     background: var(--color-dark-gray);
     color: var(--primary-bg-color);
 }
+
 

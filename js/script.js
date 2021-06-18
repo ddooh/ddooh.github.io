@@ -52,3 +52,17 @@ $(document).ready(function() {
 });
 
 
+// $('.design__item-button').click(function(e){
+// 	e.preventDefault();
+// 	$(this).siblings('.design__modal').show();
+// })
+// $('.modal__close').click(function(){
+// $('.design__modal').hide();
+// })
+// $('.design__modal').click(function(e){
+// if(e.target === e.currentTarget){
+// 	$(this).hide();
+// }
+// })
+
+
