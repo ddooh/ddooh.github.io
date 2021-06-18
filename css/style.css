@@ -287,15 +287,35 @@ section.design {
 }
 .design-container {
     text-align: center;
-    border: 1px solid #000;
     padding-top: 3rem;
 }
 .design-container__item {
     float: left;
     padding: 0 .5rem;
     margin-top: 3rem;
+    position: relative;
+    transition: 300ms;
 }
 .design-container__item img {
     border-radius: 10px;
 }
+.design-container__desc {
+    border: 1px solid var(--color-dark-gray);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: var(--color-dark-gray);
+    opacity: 0;
+    transition: 300ms;
+}
 
+.design-container__item:hover .design-container__desc{
+    opacity: 1;
+}
+
+.design-container__item:hover {
+    transform: scale(1.05);
+    text-shadow: var(--color-dark-gray) .5 .5 .5 .5;
+}
