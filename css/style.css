@@ -299,7 +299,8 @@ section.design {
 .design-container__item img {
     border-radius: 10px;
 }
-.design-container__desc a {
+
+.design-container__desc a{
     text-decoration: none;
     position: absolute;
     top: 50%;
@@ -312,6 +313,7 @@ section.design {
     opacity: 0;
     transition: 300ms;
 }
+
 .design-container__item:hover .design-container__desc a{
     opacity: 1;
 }
