@@ -69,6 +69,24 @@ $(document).ready(function() {
         autoplaySpeed: 2000,
     });
 
+	var $contactDesc = $('.contact__desc');
+	var $contactClick = $('.contact__click-circle');
+	var $contactTitle = $('.contact__title');
+	
+
+
+	$contactDesc.hide();
+	$contactClick.click(function(){
+		$contactTitle.hide();
+		$contactDesc.show();
+		$contactDesc.stop().slideDown();
+		$(this).siblings().slideToggle();
+		// $skillsIcon.toggleClass('visible');
+	})
+
+
+
+
 });
 
 
