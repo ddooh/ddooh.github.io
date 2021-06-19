@@ -91,6 +91,7 @@ $(document).ready(function() {
 	var $contactDesc = $('.contact__desc');
 	var $contactClick = $('.contact__click-circle');
 	var $contactTitle = $('.contact__title');
+	var $contactArrow = $('.contact__arrow')
 	
 	$contactDesc.hide();
 	$contactClick.click(function(){
@@ -99,16 +100,16 @@ $(document).ready(function() {
 		if( $contactTitle.is(':visible')){
 			$contactTitle.hide();	
 			$contactDesc.slideToggle(); 
-			
 		// 타이틀이 숨겨진 상태
 		}else{
 			$contactTitle.slideToggle();	
 			$contactDesc.hide(); 
-		
 		}
 	})
-
-
+	$contactArrow.show();
+	$contactClick.click(function(){
+		$contactArrow.toggleClass('rotate');
+	})
 });
 
 

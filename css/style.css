@@ -98,17 +98,14 @@ header #logo img {
 }
 
 /* home */
-
 .home-container {
     position: relative;
     z-index: -1;
 }
-.home-container img {
-    margin-top: -5%;
-}
+
 .home-desc {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 66%;
 }
 
@@ -292,20 +289,21 @@ header #logo img {
 
 section.design {
     background: var(--primary-bg-color);
+    padding: 8rem 0;
 }
 .design-container {
     text-align: center;
-    padding-top: 3rem;
 }
 
 .item__container {
     display: flex;
     flex-wrap: wrap;
     transition: 300ms;
+    padding-top: 2rem;
 }
 .item__container-img {
     position: relative;
-    padding: .7rem;
+    padding: 1rem .7rem;
 }
 .item__container-img img {
     border-radius: 30px;
@@ -376,8 +374,13 @@ section.design {
 
 /* web */
 
+section.web {
+    padding: 8rem 0;
+}
+
 .section__title--wrap {
     text-align: center;
+    padding-bottom: 3rem;
 }
 .slick__button {
     width: 150px;    
@@ -423,7 +426,7 @@ section.design {
 .slick-next
 {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
@@ -461,6 +464,7 @@ section.design {
     justify-content: center;
     position: relative;
     cursor: pointer;
+    padding-top: 3rem;
 }
 /* active된 dot */
 .slick-dots li.slick-active button {
@@ -521,6 +525,9 @@ section.contact {
 .contact__arrow {
     font-size: 3rem;
     margin-top: 4rem;
+}
+.contact__arrow.rotate {
+    transform: rotate(180deg);
 }
 
 .contact__title {
