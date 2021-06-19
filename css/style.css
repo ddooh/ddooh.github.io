@@ -354,7 +354,7 @@ section.design {
     text-align: center;
 }
 
-.modal__close{
+.modal__close {
     position: fixed;
     top: 8%;
     right: 13%;
