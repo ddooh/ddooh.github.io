@@ -50,41 +50,65 @@ $(document).ready(function() {
 		})
 	});
 
-	$('.design__item-button').click(function(e){
-		e.preventDefault();
-		$(this).siblings('.design__modal').show();
-	})
+	// design
+
+	$('.design-container__box').slick({
+        dots:true,
+        autoplay: false,
+        autoplaySpeed: 2000,
+    });
+    
+    $('.design__modal').hide();
+
+	
+	
+	
+
+	// 모달 보여준다
+	// 버튼을 클릭했을때
+	$('.design__item-button').click(function(){
+		$('.design__modal').show();
+		// img src 가져온다
+		// $().attr('src');
+		// $(this).attr("data-src");
+	
+
+		// modal에 src 세팅
+		$('.design__modal').children('img').attr('src', $(this).attr("data-src"));
+	}) 
+
 	$('.modal__close').click(function(){
-	$('.design__modal').hide();
-	})
-	$('.design__modal').click(function(e){
-	if(e.target === e.currentTarget){
-		$(this).hide();
-	}
+		$('.design__modal').hide();
 	})
 
+
+	// web
 	$('.custom__slider').slick({
         dots:true,
         autoplay: true,
         autoplaySpeed: 2000,
     });
 
+	// contact
 	var $contactDesc = $('.contact__desc');
 	var $contactClick = $('.contact__click-circle');
 	var $contactTitle = $('.contact__title');
 	
-
-
 	$contactDesc.hide();
 	$contactClick.click(function(){
-		$contactTitle.hide();
-		$contactDesc.show();
-		$contactDesc.stop().slideDown();
-		$(this).siblings().slideToggle();
-		// $skillsIcon.toggleClass('visible');
+
+		// 타이틀이 나타나있는 상태
+		if( $contactTitle.is(':visible')){
+			$contactTitle.hide();	
+			$contactDesc.slideToggle(); 
+			
+		// 타이틀이 숨겨진 상태
+		}else{
+			$contactTitle.slideToggle();	
+			$contactDesc.hide(); 
+		
+		}
 	})
-
-
 
 
 });
