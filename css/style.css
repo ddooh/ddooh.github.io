@@ -28,7 +28,6 @@ ul {
 a{
     text-decoration: none;
     color: inherit;
-    cursor: pointer;
 }
 img {
     max-width: 100%;
@@ -367,9 +366,11 @@ section.design {
 
 /* web */
 
+.section__title--wrap {
+    text-align: center;
+}
 .slick__button {
-    width: 150px;
-    
+    width: 150px;    
 }
 .slider__button:hover {
     background: #012129;
@@ -470,3 +471,32 @@ section.design {
     cursor: pointer;
 }
 
+/* contact */
+section.contact {
+    text-align: center;
+    background: var(--primary-bg-color);
+}
+.contact__title {
+    background: var(--color-dark-gray);
+    border-radius: 30px 30px 0 0 ;
+}
+.contact__desc {
+    background: var(--color-dark-gray);
+    border-radius: 30px 30px 0 0 ;
+    display: none;
+}
+.contact__sns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact__sns-item {
+    margin-right: 2rem;
+
+}
+.contact__sns-item i{
+    background: var(--color-black);
+    border-radius: 50%;
+    padding: .7rem;
+
+}
