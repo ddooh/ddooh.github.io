@@ -68,19 +68,17 @@ $(document).ready(function() {
 	// 버튼을 클릭했을때
 	$('.design__item-button').click(function(){
 		$('.design__modal').show();
-		// img src 가져온다
-		// $().attr('src');
-		// $(this).attr("data-src");
-	
-
-		// modal에 src 세팅
 		$('.design__modal').children('img').attr('src', $(this).attr("data-src"));
+		$('.overlay').show();
 	}) 
-
+	$('.overlay').click(function(){
+		$(this).hide();
+	});
+	
 	$('.modal__close').click(function(){
 		$('.design__modal').hide();
 	})
-
+	
 
 	// web
 	$('.custom__slider').slick({
