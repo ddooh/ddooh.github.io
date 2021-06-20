@@ -59,11 +59,6 @@ $(document).ready(function() {
     });
     
     $('.design__modal').hide();
-
-	
-	
-	
-
 	// 모달 보여준다
 	// 버튼을 클릭했을때
 	$('.design__item-button').click(function(){
@@ -86,6 +81,23 @@ $(document).ready(function() {
         autoplay: true,
         autoplaySpeed: 2000,
     });
+
+	// web modal
+
+	$('.web__modal').hide();
+	$('.web__item-button').click(function(){
+		$('.web__modal').show();
+		$('.web__modal').children('img').attr('src', $(this).attr("data-src"));
+		$('.web__overlay').show();
+	}) 
+	$('.web__overlay').click(function(){
+		$(this).hide();
+	});
+	
+	$('.web__modal__close').click(function(){
+		$('.web__modal').hide();
+	})
+	
 
 	// contact
 	var $contactDesc = $('.contact__desc');

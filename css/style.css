@@ -334,6 +334,8 @@ section.design {
 .item__container-img:hover img{
     transform: scale(1.1);
 }
+
+/* deesign modal */
 .overlay {
     position: fixed;
     top: 0;
@@ -411,16 +413,22 @@ section.web {
     justify-content: center;
     padding: 1rem;
     padding-left: 3rem;
+    text-align: center;
 }
 .slider__desc p {
     margin: 1rem 0;
 }
 .slider__buttons {
     display: flex;
-    justify-content: center;
+    justify-content: center;   
+}
+.slider__buttons a{
+    border: 1px solid var(--color-dark-gray);
+    padding: .5rem;
 }
 .slick__button:first-child {
     margin-right: 1rem;
+    border: 1px solid #000;
 }
 
 /* arrow */
@@ -468,11 +476,11 @@ section.web {
     cursor: pointer;
     padding-top: 3rem;
 }
-/* active된 dot */
+
 .slick-dots li.slick-active button {
     background: var(--color-dark-gray);
 }
-/* 나머지 dot */
+
 .slick-dots li {
     margin-right: .5rem;
     
@@ -486,6 +494,48 @@ section.web {
     border: none;
     cursor: pointer;
 }
+
+/* web modal */
+.web__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    display: none;
+}
+.web__modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 960px;
+    height: 100vh;
+    z-index: 500;
+    margin-top: 5%;
+    overflow: scroll;
+    text-align: center;
+}
+
+.web__modal__close {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 1.5rem;
+    color: var(--primary-bg-color);
+    background: var(--primary-bg-color);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding-bottom: 4.5px;
+    cursor: pointer;
+        
+}
+
 
 /* contact */
 section.contact {
