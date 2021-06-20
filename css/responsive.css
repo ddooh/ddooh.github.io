@@ -18,6 +18,13 @@
         top: 0;
         right: 0;
     }
+    .nav__sub-item {
+        text-align: center;
+        background: var( --primary-bg-color);
+    }
+    .nav__sub-item .nav__item{
+        border: 1px solid #000;
+    }
 
     .home-desc {
         position: absolute;
@@ -55,10 +62,35 @@
     .contact__click-circle:before {
         display: none;
     }
-    
-    
 
+    .slider__content {
+        display: block;
+    }
+    
+    section.home {
+        border: 1px solid #000;
+    }
+    .about-img {
+        border: 1px solid #000;
+    }
 
+    .about-container {
+        border: 1px solid #000;
+    }
+
+    .skills{
+        border: 1px solid #000;
+    }
+    section.design {
+        border: 1px solid #000;
+    }
+
+    section.web {
+        border: 1px solid #000;
+    }
+    section.contact {
+        border: 1px solid #000;
+    }
 
 
 }
@@ -72,6 +104,13 @@
     
     .scroll-down a {
         display: none;
+    }
+
+    .about-container__item h1 {
+        font-size: 1.5rem;
+    }
+    .title-color {
+        font-size: 1.5rem;
     }
     
 }

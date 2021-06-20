@@ -102,6 +102,9 @@ header #logo img {
 .header__btn {
     display: none;
 }
+.nav__sub-item {
+    display: none;
+}
 
 /* home */
 .home-container {

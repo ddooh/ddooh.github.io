@@ -16,6 +16,23 @@ $(document).ready(function() {
         $(this).addClass('active');
     })
 
+	$('.header__btn').click(function(){
+		$('.nav__sub-item').toggle();
+	})
+
+	var $navItem = $('.nav__item-list');
+    $navItem.click(function(e){
+        e.preventDefault();
+        var link = $(this).children('a').attr('data-link');
+        var $target = $(link);
+        var distance = $target.offset().top;
+        $('html, body').animate({scrollTop: distance});
+        $('.nav__sub-item').removeClass('visible');
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+    })
+
+
 	// my skills
 	var $pline = $('.progressbar.line');
 	var $pcircle = $('.progressbar.circle');
