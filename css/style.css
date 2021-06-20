@@ -99,6 +99,10 @@ header #logo img {
     text-decoration: underline;
 }
 
+.header__btn {
+    display: none;
+}
+
 /* home */
 .home-container {
     position: relative;
@@ -181,7 +185,7 @@ header #logo img {
 
 /* about     */
 .about{
-    margin-top: 3rem;
+    padding: 6rem 0;
 }
 .about-container__item {
     margin-bottom: 1.5rem;
@@ -386,7 +390,7 @@ section.design {
 /* web */
 
 section.web {
-    padding: 8rem 0;
+    padding: 15rem 0;
 }
 
 .section__title--wrap {
