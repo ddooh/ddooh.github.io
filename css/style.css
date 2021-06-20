@@ -624,3 +624,25 @@ section.contact {
     margin-bottom: 1rem;
 
 }
+
+
+/* scrollup */
+
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--color-dark-gray);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: 600;
+    transition: .4s;
+}
+.scrollup__icon {
+    font-size: 1.5rem;
+    color: var(--color-white);
+}
+.scrollup.visible {
+    bottom: 5rem;
+}

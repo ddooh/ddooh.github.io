@@ -138,6 +138,23 @@ $(document).ready(function() {
 	$contactClick.click(function(){
 		$contactArrow.toggleClass('rotate');
 	})
+
+	// scrollup
+
+	var skillsDistance = $('#about').offset().top;
+    var $scrollUp = $('.scrollup');
+    $(window).scroll(function(){
+        var scrollTop = $(this).scrollTop();
+        if( scrollTop > skillsDistance ){
+            $scrollUp.addClass('visible');
+        }else{
+            $scrollUp.removeClass('visible');
+        }
+    })
+    $scrollUp.click(function(e){
+        e.preventDefault();
+        $('html, body').animate({scrollTop: 0});
+    })
 });
 
 
