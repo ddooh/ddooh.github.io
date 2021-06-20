@@ -187,6 +187,19 @@ header #logo img {
 .about{
     padding: 6rem 0;
 }
+.about-img {
+    position: relative;
+    margin-right: 3rem;
+}
+.about__download {
+    position: absolute;
+    bottom: 20%;
+    left: 55%;
+    padding: .5rem;
+    background: var(--primary-bg-color);
+    width: 150px;
+    text-align: center;
+}
 .about-container__item {
     margin-bottom: 1.5rem;
     width: 400px;
@@ -196,25 +209,12 @@ header #logo img {
     margin-bottom: .5rem;
 }
 
-.about-img {
-    position: relative;
-}
-.about__download {
-    position: absolute;
-    bottom: 15%;
-    left: 60%;
-    padding: .5rem;
-    background: var(--primary-bg-color);
-    border-radius: 30px;
-    width: 150px;
-    text-align: center;
-}
 
 
 /* skill */
 
 .skill-container {
-    margin-top: -20px;
+    margin-top: -70px;
 }
 .progress-list li .line {
     position: relative;
@@ -272,19 +272,6 @@ header #logo img {
     stroke: var(--color-dark-gray)
 }
 
-
-/* .progressbar.red svg path:last-child {
-    stroke: var(--color-red)
-}
-.progressbar.yellow svg path:last-child {
-    stroke: var(--color-yellow)
-}
-.progressbar.green svg path:last-child {
-    stroke: var(--color-green)
-}
-.progressbar.blue svg path:last-child {
-    stroke: var(--color-blue)
-} */
 .skill-container p{
     background: transparent;
     padding: 10px;

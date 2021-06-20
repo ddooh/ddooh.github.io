@@ -34,11 +34,26 @@
 
     section.about {
         display: block;
-        padding: 1rem 0;
+    }
+    section.about img {
+        width: 50%;
     }
     .about-container__item {
         margin: 1.5rem auto;
         text-align: center;
+    }
+    
+    .skill-container {
+       width: 50%;
+       margin: 0 auto;
+    }
+
+    .col-lg-3 {
+        margin: 1rem;
+    }
+    .contact__click-circle:after,
+    .contact__click-circle:before {
+        display: none;
     }
     
     
