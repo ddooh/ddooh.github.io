@@ -45,19 +45,19 @@
             <class class="nav__container">
                 <ul class="nav__list flex">
                     <li class="nav__item">
-                        <a href="#">HOME</a>
+                        <a href="#" data-link="#home" >HOME</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#">ABOUT</a>
+                        <a href="#" data-link="#about">ABOUT</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#">DESIGN</a>
+                        <a href="#" data-link="#design">DESIGN</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#">WEB</a>
+                        <a href="#" data-link="#web">WEB</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#">CONTACT</a>
+                        <a href="#" data-link="#contact">CONTACT</a>
                     </li>
                 </ul>
             </class>
@@ -65,7 +65,7 @@
     </header>
 
     <!-- home -->
-    <section class="home">
+    <section class="home" id="#home">
         <div class="home-container">
             <img src="./img/home-bg-img-08.jpg" alt="home-bg-img">
             <div class="home-desc animate__animated animate__backInRight">
@@ -82,14 +82,14 @@
     </section>
 
     <!-- about -->
-    <section class="about inner flex">
+    <section class="about inner flex" id="about">
         <div class="about-container">
             <div class="about-container__item">
                 <h1>about me</h1>
                 <p>Name : 김도영</p>
-                <p>Birth : 00.00.00</p>
-                <p>Mobile : 010-0000-0000</p>
-                <p>E-mail : ytyle@gmail.com</p>
+                <p>Birth : 1991. 12. 07</p>
+                <p>Mobile : 010-3056-4609</p>
+                <p>E-mail : ytyle07@gmail.com</p>
             </div>
             <div class="about-container__item">
                 <h1>education</h1>
@@ -120,19 +120,19 @@
                         <br><br><br>
                         <div class="row text-center">              
                         <div class="col-lg-3">
-                        <div class="progressbar circle blue" data-value="85"></div>
+                        <div class="progressbar circle" data-value="85"></div>
                         <p>PHOTOSHOP</p>
                         </div>
                         <div class="col-lg-3">
-                        <div class="progressbar circle green" data-value="90"></div>
+                        <div class="progressbar circle" data-value="90"></div>
                         <p>ILLUSTATOR</p>
                         </div>
                         <div class="col-lg-3">
-                        <div class="progressbar circle red" data-value="75"></div>
+                        <div class="progressbar circle" data-value="75"></div>
                         <p>HTML5/CSS3</p>
                         </div>
                         <div class="col-lg-3">
-                        <div class="progressbar circle yellow" data-value="60"></div>
+                        <div class="progressbar circle" data-value="60"></div>
                         <p>JS/jQuery</p>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
     </section>
 
     <!-- project-design -->
-    <section class="design">
+    <section class="design" id="design">
         <div class="design-container  inner">
             <h1>PROJECT</h1>
             <h2>DESIGN</h2>
@@ -309,7 +309,7 @@
     
     <!-- project-web -->
 
-    <section class="web inner" id="portfolio">
+    <section class="web inner" id="web">
         <div class="section__title--wrap">
             <h1 class="section__title">PROJECT</h1>
             <h3 class="section__subtitle">WEB</h3>
@@ -391,13 +391,12 @@
    
     
     <!-- contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact__inner inner">
             <button class="contact__click-circle">click</button>
             <div class="contact__item">
                 <div class="contact__arrow">
                     <i class="uil uil-angle-up"></i>
-                </div>
                 </div>
                 <div class="contact__title">
                     <h1>contact me!</h1>
@@ -440,7 +439,7 @@
                     </ul>
                     <p>tank you :)</p>
                 </div>
-        </div>
+            </div>
         </div>
     </section>
 

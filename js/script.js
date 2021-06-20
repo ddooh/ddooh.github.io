@@ -1,6 +1,22 @@
 
 'use strict';
+
 $(document).ready(function() {
+	// navbar
+
+	var $navItem = $('.nav__item');
+    $navItem.click(function(e){
+        e.preventDefault();
+        var link = $(this).children('a').attr('data-link');
+        var $target = $(link);
+        var distance = $target.offset().top;
+        $('html, body').animate({scrollTop: distance});
+        $('.nav__container').removeClass('visible');
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+    })
+
+	// my skills
 	var $pline = $('.progressbar.line');
 	var $pcircle = $('.progressbar.circle');
 	$pline.each(function(i) {

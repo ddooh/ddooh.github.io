@@ -92,9 +92,11 @@ header #logo img {
     margin-right: 1.5rem;
     font-size: .8rem;
 }
-.nav__item a{
-    text-decoration: none;
-    color: inherit;
+
+.nav__item:hover,
+.nav__item.active
+{
+    text-decoration: underline;
 }
 
 /* home */
@@ -261,7 +263,13 @@ header #logo img {
     padding-left: 2px;
 }
 
-.progressbar.red svg path:last-child {
+.progressbar svg path
+ {
+    stroke: var(--color-dark-gray)
+}
+
+
+/* .progressbar.red svg path:last-child {
     stroke: var(--color-red)
 }
 .progressbar.yellow svg path:last-child {
@@ -272,8 +280,7 @@ header #logo img {
 }
 .progressbar.blue svg path:last-child {
     stroke: var(--color-blue)
-}
-
+} */
 .skill-container p{
     background: transparent;
     padding: 10px;
@@ -593,7 +600,7 @@ section.contact {
     padding: 5rem 0;
     background: var(--color-dark-gray);
     border-radius: 30px 30px 0 0 ;
-    
+    color: var(--color-black);
 }
 
 .contact__desc p {
@@ -607,11 +614,13 @@ section.contact {
 }
 .contact__sns-item {
     margin-right: 2rem;
+    color: var(--primary-bg-color);
 
 }
 .contact__sns-item i{
     background: var(--color-black);
     border-radius: 50%;
     padding: .7rem;
+    margin-bottom: 1rem;
 
 }
