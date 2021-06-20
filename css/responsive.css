@@ -7,7 +7,11 @@
     .l-col-tablet-4-6 { width: 66.66666666667%; }
     .l-col-tablet-5-6 { width: 483.33333333333%; }
     .l-col-tablet-6-6 { width: 100%; }
-
+    
+    .header {
+        background: var(--primary-bg-color);
+        padding: 0 1rem;
+    }
     .nav__container {
         display: none;
     }
@@ -16,11 +20,11 @@
         font-size: 2rem;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 8%;
     }
     .nav__sub-item {
         text-align: center;
-        background: var( --primary-bg-color);
+        background: var(--primary-bg-color);
     }
     .nav__sub-item .nav__item{
         border: 1px solid #000;
@@ -67,31 +71,6 @@
         display: block;
     }
     
-    section.home {
-        border: 1px solid #000;
-    }
-    .about-img {
-        border: 1px solid #000;
-    }
-
-    .about-container {
-        border: 1px solid #000;
-    }
-
-    .skills{
-        border: 1px solid #000;
-    }
-    section.design {
-        border: 1px solid #000;
-    }
-
-    section.web {
-        border: 1px solid #000;
-    }
-    section.contact {
-        border: 1px solid #000;
-    }
-
 
 }
 @media (max-width:568px) {

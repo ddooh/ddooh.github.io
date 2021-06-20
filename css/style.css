@@ -76,6 +76,7 @@ header {
     position: fixed;
     left: 0;
     width: 100%;
+    max-width: 100%;
 }
 header #logo img {
     width: 50px;

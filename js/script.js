@@ -17,7 +17,7 @@ $(document).ready(function() {
     })
 
 	$('.header__btn').click(function(){
-		$('.nav__sub-item').toggle();
+		$('.nav__sub-item').slideToggle();
 	})
 
 	var $navItem = $('.nav__item-list');
