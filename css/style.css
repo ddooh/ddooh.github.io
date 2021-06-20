@@ -304,6 +304,7 @@ section.design {
 .item__container-img {
     position: relative;
     padding: 1rem .7rem;
+    transition: 300ms;
 }
 .item__container-img img {
     border-radius: 30px;
@@ -344,9 +345,10 @@ section.design {
 }
 .design__modal {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 960px;
     height: 100vh;
     z-index: 500;
     margin-top: 5%;
@@ -356,9 +358,10 @@ section.design {
 
 .modal__close {
     position: fixed;
-    top: 8%;
-    right: 13%;
+    top: 0;
+    left: 0;
     font-size: 1.5rem;
+    color: var(--primary-bg-color);
     background: var(--primary-bg-color);
     width: 25px;
     height: 25px;
@@ -367,7 +370,6 @@ section.design {
     align-items: center;
     border-radius: 50%;
     padding-bottom: 4.5px;
-    border: 1px solid var(--primary-bg-color);
     cursor: pointer;
         
 }
