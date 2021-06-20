@@ -81,17 +81,16 @@
                 <a href="#" data-link="#contact">CONTACT</a>
                </li>
            </ul>     
-        
     </header>
 
     <!-- home -->
     <section class="home" id="home">
         <div class="home-container">
             <img src="./img/home-bg-img-08.jpg" alt="home-bg-img">
-            <div class="home-desc animate__animated animate__backInRight">
-                <p>WEB DESIGNER</p>
-                <p>KIM DO YOUNG</p>
-                <p>PORTFOLIO</p>
+            <div class="home-desc">
+                <p class="animate__animated animate__backInRight animate__delay-1s">WEB DESIGNER</p>
+                <p class="animate__animated animate__backInRight animate__delay-2s">KIM DO YOUNG</p>
+                <p class="animate__animated animate__backInRight animate__delay-3s">PORTFOLIO</p>
             </div>
             <div id="scroll-down" class="scroll-down">
                 <a href="#"><span></span><span></span><span></span>Scroll</a>
@@ -100,33 +99,36 @@
     </section>
 
     <!-- about -->
-    <section class="about inner flex" id="about">       
-        <div class="about-img">
-            <img src="./img/profile-img-09.jpg" alt="">
-            <a download="./pdf/김도영_입사지원서.pdf" href="#" class="about__download button">
-                resume
-                <i class="uil uil-file-download-alt"></i>
-            </a>
-        </div>
-        <div class="about-container">
-            <div class="about-container__item">
-                <h1>about me</h1>
-                <p>Name : 김도영</p>
-                <p>Birth : 1991. 12. 07</p>
-                <p>Mobile : 010-3056-4609</p>
-                <p>E-mail : ytyle07@gmail.com</p>
+    <section class="about inner" id="about">   
+        <h1 class="about__title">"Lorem, ipsum dolor."</h1>
+        <div class="about-inner flex">
+            <div class="about-img">
+                <img src="./img/profile-img-09.jpg" alt="">
+                <a download="./pdf/김도영_입사지원서.pdf" href="#" class="about__download button">
+                    resume
+                    <i class="uil uil-file-download-alt"></i>
+                </a>
             </div>
-            <div class="about-container__item">
-                <h1>education</h1>
-                <p>2014. 02 계명대학교 패션디자인 졸업</p>
-                <p>2021. 07 디지털디자인(웹디자인)구직자 양성과정 수료</p>
+            <div class="about-container">
+                <div class="about-container__item">
+                    <h2>about me</h2>
+                    <p>Name : 김도영</p>
+                    <p>Birth : 1991. 12. 07</p>
+                    <p>Mobile : 010-3056-4609</p>
+                    <p>E-mail : ytyle07@gmail.com</p>
+                </div>
+                <div class="about-container__item">
+                    <h2>education</h2>
+                    <p>2014. 02 계명대학교 패션디자인 졸업</p>
+                    <p>2021. 07 디지털디자인(웹디자인)구직자 양성과정 수료</p>
+                </div>
+                <div class="about-container__item">
+                    <h2>licence</h2>
+                    <p>2종 보통 운전면허</p>
+                    <p>GTQ 1급</p>
+                </div>
             </div>
-            <div class="about-container__item">
-                <h1>licence</h1>
-                <p>2종 보통 운전면허</p>
-                <p>GTQ 1급</p>
-            </div>
-        </div>
+        </div>    
     </section>
 
     <!-- about-skills -->
@@ -134,7 +136,7 @@
             <div class="skill-container">
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
-                    <h1 class="title-color text-center">MY SKILLS</h1>
+                    <h2 class="title-color text-center">MY SKILLS</h2>
                         <br><br><br>
                         <div class="row text-center">              
                         <div class="col-lg-3">
@@ -162,7 +164,7 @@
     <!-- project-design -->
     <section class="design" id="design">
         <div class="design-container  inner">
-            <h1>PROJECT</h1>
+            <h1 class="design__title">PROJECT</h1>
             <h2>DESIGN</h2>
             <div class="design-container__box clearfix">
                 <div class="design-container__image">
@@ -330,7 +332,7 @@
     <section class="web inner" id="web">
         <div class="section__title--wrap">
             <h1 class="section__title">PROJECT</h1>
-            <h3 class="section__subtitle">WEB</h3>
+            <h2 class="section__subtitle">WEB</h2>
         </div>
         <div class="custom__slider">
             <div>
@@ -411,7 +413,13 @@
     <!-- contact -->
     <section class="contact" id="contact">
         <div class="contact__inner inner">
-            <button class="contact__click-circle">click</button>
+            
+            <div class="circle__wrap">
+                <span class="circle__line left"></span>
+                <button class="contact__click-circle">click</button>
+                <span class="circle__line right"></span>
+            </div>
+
             <div class="contact__item">
                 <div class="contact__arrow">
                     <i class="uil uil-angle-up"></i>
@@ -420,7 +428,7 @@
                     <h1>contact me!</h1>
                 </div>
                 <div class="contact__desc">
-                    <h1>CONTACT</h1>
+                    <h2>CONTACT</h2>
                     <ul class="contact__sns inner">
                         <li class="contact__sns-item">
                             <a href="#">

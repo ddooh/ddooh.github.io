@@ -17,7 +17,8 @@ $(document).ready(function() {
     })
 
 	$('.header__btn').click(function(){
-		$('.nav__sub-item').slideToggle();
+		// $('.nav__sub-item').slideToggle();
+		$('.nav__sub-item').toggleClass('visible');
 	})
 
 	var $navItem = $('.nav__item-list');
@@ -113,6 +114,11 @@ $(document).ready(function() {
         dots:true,
         autoplay: true,
         autoplaySpeed: 2000,
+		/* dots: true,
+		infinite: true,
+		// speed: 300,
+		slidesToShow: 1,
+		slidesToScroll: 1, */
     });
 
 	// web modal
