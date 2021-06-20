@@ -56,7 +56,6 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 2rem 0 4rem;
-    background: gold;
 }
 .flex {
     display: flex;
@@ -103,11 +102,8 @@ header #logo img {
 }
 .nav__sub-item {
     display: none;
-    /* background: red; */
 }
-/* .nav__sub-item.visible {
-    display: block;
-} */
+
 
 /* home */
 .home-container {
