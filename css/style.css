@@ -287,7 +287,7 @@ header #logo img {
 }
 
 .progressbar svg path
- {
+{
     stroke: var(--color-dark-gray)
 }
 
@@ -385,6 +385,7 @@ section.design {
     height: 100%;
     background: rgba(0,0,0,.5);
     display: none;
+    z-index: 600;
 }
 .design__modal {
     position: fixed;
@@ -393,7 +394,7 @@ section.design {
     transform: translate(-50%, -50%);
     max-width: 960px;
     height: 100vh;
-    z-index: 500;
+    z-index: 700;
     margin-top: 5%;
     overflow: scroll;
     text-align: center;
@@ -414,6 +415,7 @@ section.design {
     border-radius: 50%;
     padding-bottom: 4.5px;
     cursor: pointer;
+    z-index: 800;
 }
 
 /* web */
@@ -545,6 +547,7 @@ section.web {
     height: 100%;
     background: rgba(0,0,0,.5);
     display: none;
+    z-index: 600;
 }
 .web__modal{
     position: fixed;
@@ -553,7 +556,7 @@ section.web {
     transform: translate(-50%, -50%);
     max-width: 960px;
     height: 100vh;
-    z-index: 500;
+    z-index: 700;
     margin-top: 5%;
     overflow: scroll;
     text-align: center;
@@ -574,6 +577,7 @@ section.web {
     border-radius: 50%;
     padding-bottom: 4.5px;
     cursor: pointer;
+    z-index: 800;
         
 }
 
