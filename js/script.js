@@ -88,7 +88,7 @@ $(document).ready(function() {
 
 	$('.design-container__box').slick({
         dots:true,
-        autoplay: false,
+		autoplay: true,
         autoplaySpeed: 2000,
     });
     
@@ -114,11 +114,6 @@ $(document).ready(function() {
         dots:true,
         autoplay: true,
         autoplaySpeed: 2000,
-		/* dots: true,
-		infinite: true,
-		// speed: 300,
-		slidesToShow: 1,
-		slidesToScroll: 1, */
     });
 
 	// web modal

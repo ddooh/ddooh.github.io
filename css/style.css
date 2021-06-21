@@ -403,8 +403,6 @@ section.design {
     top: 0;
     left: 0;
     font-size: 1.5rem;
-    color: var(--primary-bg-color);
-    background: var(--primary-bg-color);
     width: 25px;
     height: 25px;
     display: flex;
@@ -414,6 +412,9 @@ section.design {
     padding-bottom: 4.5px;
     cursor: pointer;
     z-index: 800;
+}
+.modal__close:hover {
+    background: var(--primary-bg-color);
 }
 
 /* web */
