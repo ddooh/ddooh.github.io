@@ -17,9 +17,9 @@ $(document).ready(function() {
     })
 
 	$('.header__btn').click(function(){
-		// $('.nav__sub-item').slideToggle();
 		$('.nav__sub-item').toggleClass('visible');
 	})
+	
 
 	var $navItem = $('.nav__item-list');
     $navItem.click(function(e){

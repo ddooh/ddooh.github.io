@@ -11,6 +11,8 @@
     /* header */
     .header {
         background: var(--primary-bg-color);
+    }
+    .header-inner {
         padding: 0 1rem;
     }
     .nav__container {
@@ -27,13 +29,18 @@
     }
     .nav__sub-item {
         text-align: center;
+        margin-top: -2px;
         background: var(--primary-bg-color);
+        box-shadow:  2px 2px 2px 1px rgba(87, 87, 87, 0.15);
     }
     .nav__sub-item.visible {
         display: block;
     }
-    .nav__sub-item .nav__item{
-        border: 1px solid #000;
+    .nav__item-list {
+        padding: 1rem 0;
+    }
+    .nav__item-list:hover {
+        text-decoration: underline;
     }
 
     /* home */
@@ -51,10 +58,7 @@
     }
 
     /* about */
-
-    .about__title h1 {
-        font-size: 2rem;
-    }
+    
     .about-inner {
         flex-direction: column;
         padding: 0;
@@ -107,9 +111,6 @@
         display: none;
     }
 
-    .about__title h1 {
-        font-size: 1.5rem;
-    }
     section.about img {
         width: 100%;
     }

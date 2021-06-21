@@ -190,14 +190,14 @@ header #logo img {
 /* about     */
 .about__title {
     position: relative;
-}
-.about__title h1 {
     text-align: center;
+}
+.about__title h3 {
     z-index: 10;
 }
 .about__title span {
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 0;
     text-align: center;
     width: 100%;
