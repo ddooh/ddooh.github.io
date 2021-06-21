@@ -21,8 +21,9 @@
         font-size: 2rem;
         position: absolute;
         top: 0;
-        right: 8%;
+        right: 0;
         cursor: pointer;
+        padding: 0 1rem;
     }
     .nav__sub-item {
         text-align: center;
@@ -50,7 +51,7 @@
     }
 
     /* about */
-    
+
     .about__title h1 {
         font-size: 2rem;
     }
