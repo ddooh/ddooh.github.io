@@ -326,7 +326,6 @@ section.design {
 }
 
 .design-container__box {
-    background: coral;
     padding: 0 2rem;
 }
 
@@ -415,7 +414,6 @@ section.design {
     border-radius: 50%;
     padding-bottom: 4.5px;
     cursor: pointer;
-        
 }
 
 /* web */
@@ -437,7 +435,6 @@ section.web {
 .custom__slider {
     max-width: 960px;
     margin: 0 auto;
-    background: gold;
 }
 .slider__content {
     display: flex;
@@ -486,7 +483,6 @@ section.web {
     border-radius: 50%;
     font-size: 0;
     border: none ;
-    background: red;
     line-height: 50px;
     cursor: pointer;
     z-index: 100;
