@@ -7,6 +7,8 @@
     --color-dark-gray : #333;
     --color-black : #000;
     --color-yellow : #f5df63;
+    --color-bg-color: #f0eeeb;
+    --color-light-bg: #eff0ec;
 
 }
 
@@ -108,17 +110,57 @@ header #logo img {
 
 
 /* home */
+/* #home {
+    background: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg) no-repeat center/cover;
+}
 .home-container {
     position: relative;
+    height: 100vh;
     z-index: -1;
-}
-
+} */
+/* 
 .home-desc {
     position: absolute;
     top: 50%;
     left: 66%;
+} */
+.home_bg-container {
+    position: relative;
 }
-
+.home-back {
+    height: 100vh;
+}
+.home_right {
+    background: var(--color-yellow);
+    flex: 1;
+}
+.home-sub__title {
+    border: 1px solid #000;
+}
+.home_left {
+    position: relative;
+    background: var(--color-bg-color);
+    flex: 1;
+}
+.home-title {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: 15rem;
+    color: var(--color-yellow);
+    z-index: 100;
+    /* border: 1px solid #000; */
+}
+.home-back__inner {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 85%;
+    background: var(--color-light-gray);
+    opacity: 0.3;
+}
 
 /* scroll down */
 .scroll-down a {
@@ -243,6 +285,7 @@ header #logo img {
     padding: 2rem 0 2rem 1.2rem;
     margin-top: -3rem;
 }
+
 .progress-list li .line {
     position: relative;
 }
@@ -304,10 +347,18 @@ header #logo img {
     width: 75%;
     margin: 0 auto;
     border-radius: 50px;
-    border: 2px solid var(--color-light-gray);
+    background: var(--color-yellow);
     font-size: 17px;
     margin-top: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
 }
+
+/* .skill__stack {
+    
+background: red;
+    
+} */
 
 /* design */
 

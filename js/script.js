@@ -95,7 +95,8 @@ $(document).ready(function() {
     $('.design__modal').hide();
 	// 모달 보여준다
 	// 버튼을 클릭했을때
-	$('.design__item-button').click(function(){
+	$('.design__item-button').click(function(event){
+		event.preventDefault();
 		$('.design__modal').show();
 		$('.design__modal').children('img').attr('src', $(this).attr("data-src"));
 		$('.overlay').show();

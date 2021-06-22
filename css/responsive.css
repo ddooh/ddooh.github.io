@@ -63,10 +63,15 @@
         flex-direction: column;
         padding: 0;
     }
+    .about-img {
+        margin: 0 auto;
+        position: relative;
+    }
     .about__download {
         position: absolute;
-        bottom: 0;
-        left: 50%;
+        bottom: 3%;
+        left: 70%;
+        transform: translateX(-50%);
     }
     .about-container__item {
         margin: 1.5rem auto;
@@ -109,21 +114,6 @@
     
     .scroll-down a {
         display: none;
-    }
-
-    section.about img {
-        width: 100%;
-    }
-    .about__download {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-    }
-    .about-container__item h1 {
-        font-size: 1.5rem;
-    }
-    .title-color {
-        font-size: 1.5rem;
     }
 
 }
