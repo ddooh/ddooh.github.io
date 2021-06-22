@@ -71,7 +71,7 @@ body {
 
 /* header */
 header {
-    z-index: 1;
+    z-index: 999;
     position: fixed;
     left: 0;
     width: 100%;
@@ -133,9 +133,26 @@ header #logo img {
 .home_right {
     background: var(--color-yellow);
     flex: 1;
+    position: relative;
 }
 .home-sub__title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sub-desc p {
+    color: var(--color-light-bg);
+    font-size: 2rem;
+}
+.sub-desc a {
     border: 1px solid #000;
+    color: var(--color-light-bg);
+}
+.sub-img__left{
+    text-align: left;
+}
+.sub-img__right {
+    text-align: right;
 }
 .home_left {
     position: relative;
@@ -151,6 +168,7 @@ header #logo img {
     z-index: 100;
     /* border: 1px solid #000; */
 }
+
 .home-back__inner {
     position: absolute;
     top: 10%;
