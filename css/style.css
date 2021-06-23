@@ -635,8 +635,8 @@ section.contact {
     align-items: center;
 }
 .contact__click-circle {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
     background: var(--color-dark-gray);
     color: var(--primary-bg-color);
