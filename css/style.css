@@ -110,20 +110,6 @@ header #logo img {
 
 
 /* home */
-/* #home {
-    background: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg) no-repeat center/cover;
-}
-.home-container {
-    position: relative;
-    height: 100vh;
-    z-index: -1;
-} */
-/* 
-.home-desc {
-    position: absolute;
-    top: 50%;
-    left: 66%;
-} */
 
 .home_bg-container {
     position: relative;
@@ -223,75 +209,11 @@ header #logo img {
 
 }
 
-
-/* scroll down */
-.scroll-down a {
-    position: absolute;
-    bottom: 20%;
-    left: 66%;
-    z-index: 2;
-    display: inline-block;
-    transform: translate(0, -50%);
-    color: var(--color-light-gray);
-    letter-spacing: .1em;
-    text-decoration: none;
-    transition: opacity .3s;
-    }
-    .scroll-down a:hover {
-    opacity: .5;
-    }
-    #scroll-down a {
-    padding-top: 80px;
-    }
-    #scroll-down a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 24px;
-    height: 24px;
-    margin-left: -12px;
-    border-left: 1px solid var(--color-light-gray);
-    border-bottom: 1px solid var(--color-light-gray);
-    transform: rotate(-45deg);
-    animation: scroll-arrow 2s infinite;
-    opacity: 0;
-    box-sizing: border-box;
-    }
-    #scroll-down a span:nth-of-type(1) {
-    animation-delay: 0s;
-    }
-    #scroll-down a span:nth-of-type(2) {
-    top: 16px;
-    animation-delay: .15s;
-    }
-    #scroll-down a span:nth-of-type(3) {
-    top: 32px;
-    animation-delay: .3s;
-    }
-    @-webkit-keyframes scroll-arrow {
-    0% {
-    opacity: 0;
-    }
-    50% {
-    opacity: 1;
-    }
-    100% {
-    opacity: 0;
-    }
-    }
-    @keyframes scroll-arrow {
-    0% {
-    opacity: 0;
-    }
-    50% {
-    opacity: 1;
-    }
-    100% {
-    opacity: 0;
-    }
-    }
-
 /* about     */
+section.about {
+    background: url(../img/bg-img01.jpg) no-repeat center/cover;
+    height: 100vh;
+}
 .about__title {
     position: relative;
     padding-top: 2rem;
@@ -425,7 +347,7 @@ background: red;
 /* design */
 
 section.design {
-    background: var(--primary-bg-color);
+    background: url(../img/bg-img02.jpg) no-repeat center/cover;
     padding: 8rem 0;
 }
 .design__title {
@@ -534,6 +456,7 @@ section.design {
 
 section.web {
     padding: 15rem 0;
+    background: url(../img/bg-img03.jpg) no-repeat center/cover;
 }
 
 .slider__content {
@@ -704,7 +627,7 @@ section.web {
 /* contact */
 section.contact {
     text-align: center;
-    background: var(--primary-bg-color);
+    background: url(../img/bg-img04.jpg) no-repeat center/cover;
     padding-top: 3rem;
 }
 .circle__wrap {
