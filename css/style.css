@@ -210,8 +210,7 @@ header #logo img {
 
 /* about     */
 section.about {
-    background: url() no-repeat center/cover;
-    height: 100vh;
+    background: url(../img/포폴배경1-01.jpg) no-repeat center/cover;
 }
 .about__title {
     position: relative;
@@ -230,17 +229,18 @@ section.about {
     z-index: -2;
 }
 
-.about-inner {
-    padding: 3rem 0;
-}
 .about-img {
     position: relative;
-    margin-right: 3rem;
+    flex: 1;
+    text-align: center;
+    padding-top: 3rem;
+
 }
 .about__download {
     position: absolute;
-    bottom: 15%;
-    left: 55%;
+    bottom: 10%;
+    left: 50%;
+    transform: translatex(-50%);
     padding: .5rem;
     background: var(--color-yellow);
     width: 150px;
@@ -248,7 +248,6 @@ section.about {
 }
 .about-container__item {
     margin-bottom: 1.5rem;
-    width: 400px;
 }
 .about-container__item h2 {
     text-transform: uppercase;
@@ -258,9 +257,11 @@ section.about {
 
 
 /* skill */
-
+.skill {
+    border: 1px solid #000;
+}
 .skill-container {
-    margin-top: -22rem;
+    margin-top: -5rem;
 }
 .skill-container .row {
     background: var(--primary-bg-color);
