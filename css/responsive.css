@@ -103,23 +103,25 @@
         margin: 1.5rem auto;
         text-align: center;
     }
-    
     .skill-container {
     width: 50%;
     margin: 0 auto;
     margin-top: -7rem;
     }
-
     .skill-container .col-lg-3 {
         margin: 1rem;
     }
-    
+    /* design */
     section.design {
         padding: 0;
     }
+    /* modal */
+    .design__modal,
+    .web__modal {
+        margin-top: 5rem;
+    }
 
-    /* -------------------- Web Section ------------------------------ */
-
+    /* web */
     section.web {
         padding: 0;
     }
@@ -127,7 +129,6 @@
         flex-direction: column;
         text-align: center;
     }
-
     .slick-prev {
         left: 0;
     }
@@ -144,19 +145,17 @@
     .l-col-mobile-5-6 { width: 483.33333333333%; }
     .l-col-mobile-6-6 { width: 100%; }  
     
+    /* home */
     .home-back {
         max-width: 568px;
     }
-
     .home-title {
         padding-top: 1.8rem;
         font-size: 5rem;
     }
-
     .sub-desc p {
         font-size: 1.5rem;
     }
-
     .start__btn a{
         font-size: 1rem;
         border-radius: 10px;
@@ -166,11 +165,10 @@
         height: 100px;
     }
 /* about */
-section.about {
+    section.about {
     margin-top: -4rem;
-}
+    }
     .about__title h3 {
         font-size: 1.5rem;
     }
-
 }
