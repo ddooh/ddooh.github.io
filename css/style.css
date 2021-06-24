@@ -668,11 +668,6 @@ section.contact {
     color: var(--color-yellow);
 }
 
-/* .contact__desc h2 {
-    color: var(--color-black);
-} */
-
-
 .contact__desc p {
     font-size: 2rem;
 }
@@ -693,6 +688,9 @@ section.contact {
     padding: .7rem;
     margin-bottom: 1rem;
 
+}
+.contact__sns-desc {
+    text-align: center;
 }
 
 .contact__desc span {
