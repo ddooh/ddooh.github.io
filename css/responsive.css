@@ -119,10 +119,15 @@
         margin: 1rem;
     }
     
+    section.design {
+        padding: 0;
+    }
 
     /* -------------------- Web Section ------------------------------ */
 
-    
+    section.web {
+        padding: 0;
+    }
     .slider__content {
         flex-direction: column;
         text-align: center;
