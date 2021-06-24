@@ -612,9 +612,8 @@ section.web {
 /* contact */
 section.contact {
     text-align: center;
-    background: url() no-repeat center/cover;
     padding-top: 3rem;
-    background: var(--color-bg-color);
+    background: var(--primary-bg-color);
 }
 .circle__wrap {
     display: flex;
@@ -666,8 +665,13 @@ section.contact {
     padding: 5rem 0;
     background: var(--color-dark-gray);
     border-radius: 30px 30px 0 0 ;
-    color: var(--color-black);
+    color: var(--color-yellow);
 }
+
+/* .contact__desc h2 {
+    color: var(--color-black);
+} */
+
 
 .contact__desc p {
     font-size: 2rem;
@@ -684,12 +688,17 @@ section.contact {
 
 }
 .contact__sns-item i{
-    background: var(--color-black);
+    background:  rgb(63, 62, 62);
     border-radius: 50%;
     padding: .7rem;
     margin-bottom: 1rem;
 
 }
+
+.contact__desc span {
+    color: var(--color-black);
+}
+
 
 
 /* scrollup */
