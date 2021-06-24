@@ -279,6 +279,7 @@ section.about {
 }
 .progressbar svg path:first-child {
     stroke: rgba(var(--rgb-black), 0.09);
+
 }
 .progressbar.border {
     border: 1px solid transparent;
@@ -331,20 +332,11 @@ section.about {
     width: 75%;
     margin: 0 auto;
     border-radius: 50px;
-    background: var(--color-yellow);
     font-size: 17px;
     margin-top: 1rem;
     border: 1px solid #ddd;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
 }
-
-/* .skill__stack {
-    
-background: red;
-    
-} */
-
-/* design */
 
 section.design {
     background: url(../img/bgimg02-02.jpg) no-repeat center/cover;
