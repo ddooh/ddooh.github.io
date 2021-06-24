@@ -44,13 +44,10 @@
     }
 
     /* home */
-    .home-desc {
-        position: absolute;
-        top: 50%;
-        left: 65%;
-        font-size: .5rem;
+    
+    .home_bg-container {
+        max-width: 768px;
     }
-
 
     /* about */
     
@@ -85,7 +82,7 @@
 
     /* -------------------- Web Section ------------------------------ */
 
-
+    
     .slider__content {
         flex-direction: column;
         text-align: center;
@@ -106,9 +103,6 @@
     .l-col-mobile-4-6 { width: 66.66666666667%; }
     .l-col-mobile-5-6 { width: 483.33333333333%; }
     .l-col-mobile-6-6 { width: 100%; }  
-    
-    .scroll-down a {
-        display: none;
-    }
+
 
 }
