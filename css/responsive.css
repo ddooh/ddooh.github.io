@@ -51,7 +51,6 @@
     .home-title {
         font-size: 8rem;
     }
-
     .home-load {
         flex-direction: column;
         padding: 0;
@@ -61,14 +60,12 @@
         width: 120px;
         height: 120px;
     }
-
     .home-load span:nth-child(2),
     .home-load  span:nth-child(3),
     .home-load  span:nth-child(4),
     .home-load  span:nth-child(5) {
         margin-left: 0;
     }
-    
     .home-sub__title {
         width: 50%;
         position: absolute;
@@ -78,13 +75,9 @@
     .home-sub__title p {
         font-size: 2rem;
     }
-
     .home-sub__title img {
         width: 30%;
     }
-
-    
-
     /* about */
     .about__title {
         text-align: center;
@@ -161,17 +154,23 @@
     }
 
     .sub-desc p {
-       font-size: 1.5rem;
+        font-size: 1.5rem;
     }
 
-    .sub-desc a {
-        font-size: .8rem;
-        padding: .3rem;
+    .start__btn a{
+        font-size: 1rem;
+        border-radius: 10px;
     }
-
     .home-load span {
         width: 100px;
         height: 100px;
+    }
+/* about */
+section.about {
+    margin-top: -4rem;
+}
+    .about__title h3 {
+        font-size: 1.5rem;
     }
 
 }

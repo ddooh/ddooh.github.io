@@ -101,8 +101,6 @@ $(document).ready(function() {
     });
     
     $('.design__modal').hide();
-	// 모달 보여준다
-	// 버튼을 클릭했을때
 	$('.design__item-button').click(function(event){
 		event.preventDefault();
 		$('.design__modal').show();
@@ -116,7 +114,6 @@ $(document).ready(function() {
 	$('.modal__close').click(function(){
 		$('.design__modal').hide();
 	})
-	
 
 	// web
 	$('.custom__slider').slick({
@@ -126,9 +123,9 @@ $(document).ready(function() {
     });
 
 	// web modal
-
 	$('.web__modal').hide();
-	$('.web__item-button').click(function(){
+	$('.web__item-button').click(function(event){
+		event.preventDefault();
 		$('.web__modal').show();
 		$('.web__modal').children('img').attr('src', $(this).attr("data-src"));
 		$('.web__overlay').show();
@@ -150,12 +147,9 @@ $(document).ready(function() {
 	
 	$contactDesc.hide();
 	$contactClick.click(function(){
-
-		// 타이틀이 나타나있는 상태
 		if( $contactTitle.is(':visible')){
 			$contactTitle.hide();	
 			$contactDesc.slideToggle(); 
-		// 타이틀이 숨겨진 상태
 		}else{
 			$contactTitle.slideToggle();	
 			$contactDesc.hide(); 

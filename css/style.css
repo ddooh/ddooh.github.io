@@ -2,14 +2,10 @@
 
 :root {
     --primary-bg-color: #F3F3F3;
-    --color-white : #fff;
     --color-light-gray : #a0a0a0;
     --color-dark-gray : #333;
     --color-black : #000;
     --color-yellow : #f5df63;
-    --color-bg-color: #f0eeeb;
-    --color-light-bg: #eff0ec;
-
 }
 
 /* reset */
@@ -64,12 +60,6 @@ body {
     display: flex;
 }
 
-.clearfix:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
 /* header */
 header {
     z-index: 999;
@@ -118,6 +108,19 @@ header #logo img {
 .home-back {
     height: 100vh;
 }
+.home_left {
+    position: relative;
+    background: var(--primary-bg-color);
+    flex: 1;
+}
+.home-title {
+    position: absolute;
+    top: 3%;
+    left: 0;
+    font-size: 15rem;
+    color: var(--color-yellow);
+    z-index: 100;
+}
 .home_right {
     background: var(--color-yellow);
     flex: 1;
@@ -132,32 +135,24 @@ header #logo img {
     color: var(--primary-bg-color);
     font-size: 3rem;
 }
-.sub-desc a {
+.start__btn {
+    color: var(--color-yellow);
+}
+.start__btn a{
     background: var(--primary-bg-color);
+    font-size: 1.5rem;
     padding: .6rem;
     border-radius: 10px;
 }
-
+.start__btn a:hover {
+    opacity: .8;
+}
 .sub-img__left{
     text-align: left;
 }
 .sub-img__right {
     text-align: right;
 }
-.home_left {
-    position: relative;
-    background: var(--primary-bg-color);
-    flex: 1;
-}
-.home-title {
-    position: absolute;
-    top: 3%;
-    left: 0;
-    font-size: 15rem;
-    color: var(--color-yellow);
-    z-index: 100;
-}
-
 .home-back__inner {
     position: absolute;
     top: 10%;
@@ -168,7 +163,6 @@ header #logo img {
     background: var(--color-light-gray);
     opacity: 0.3;
 }
-
 .home-load {
     padding: 2rem;
     display: flex;
@@ -194,18 +188,14 @@ header #logo img {
 .home-load  span:nth-child(3) {
     background: #FFEA61;
     margin-left: -4rem;
- 
 }
 .home-load  span:nth-child(4) {
     background: #ffdb28;
     margin-left: -4rem;
-
 }
 .home-load  span:nth-child(5) {
     background: #FFD400;
     margin-left: -4rem;
-    text-align: center;
-
 }
 
 /* about     */
@@ -216,13 +206,11 @@ section.about {
     padding: 2rem 0 2rem 7rem;
     text-align: left;
 }
-
 .about-img {
     position: relative;
     flex: 1;
     text-align: center;
     padding-top: 3rem;
-
 }
 .about__download {
     position: absolute;
@@ -239,18 +227,13 @@ section.about {
     margin-bottom: 1.5rem;
 }
 .about-container__item h2 {
-    text-transform: uppercase;
     margin-bottom: .5rem;
 }
-
 .about__download:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
-
-
 /* skill */
-
 .skill-container {
     margin-top: -5rem;
 }
@@ -271,9 +254,8 @@ section.about {
 }
 .progressbar svg path:first-child {
     stroke: rgba(var(--rgb-black), 0.09);
-
 }
-.progressbar.border {
+/* .progressbar.border {
     border: 1px solid transparent;
     box-sizing: border-box;
 }
@@ -291,7 +273,7 @@ section.about {
     margin: 0 auto 25px;
     width: 170px;
     height: 85px;
-}
+} */
 
 .progressbar.circle .progressbar-text {
     position: absolute;
@@ -330,6 +312,7 @@ section.about {
     box-shadow: 0 0 5px rgba(0,0,0,.5);
 }
 
+/* design */
 section.design {
     background: url(../img/bg-design-02.jpg) no-repeat center/cover;
     padding: 8rem 0;
@@ -360,7 +343,6 @@ section.design {
     border-radius: 30px;
     transition: 300ms;
 }
-
 .item__container-desc a {
     position: absolute;
     top: 50%;
@@ -373,14 +355,11 @@ section.design {
     opacity: 0;
     transition: 300ms;
 }
-
-
 .item__container-desc p {
     padding-top: 1rem;
     text-transform: uppercase;
     position: relative;
 }
-
 .item__container-desc p:after {
     content: '';
     position: absolute;
@@ -392,7 +371,6 @@ section.design {
 .item__container-img:hover img{
     transform: scale(1.1);
 }
-
 /* deesign modal */
 .overlay {
     position: fixed;
@@ -416,7 +394,6 @@ section.design {
     overflow: scroll;
     text-align: center;
 }
-
 .modal__close {
     position: fixed;
     top: 0;
@@ -435,27 +412,20 @@ section.design {
 .modal__close:hover {
     background: var(--primary-bg-color);
 }
-
 /* web */
-
 section.web {
     padding: 15rem 0;
     background: url(../img/bg-web-03.jpg) no-repeat center/cover;
 }
-
 .slider__content {
     padding: 0 3rem;
 }
-
 .section__title--wrap {
     text-align: center;
     padding-bottom: 3rem;
 }
 .slick__button {
     width: 150px;    
-}
-.slider__button:hover {
-    background: #012129;
 }
 .custom__slider {
     max-width: 960px;
@@ -594,8 +564,6 @@ section.web {
     top: 0;
     left: 0;
     font-size: 1.5rem;
-    color: var(--primary-bg-color);
-    background: var(--primary-bg-color);
     width: 25px;
     height: 25px;
     display: flex;
@@ -607,7 +575,9 @@ section.web {
     z-index: 800;
         
 }
-
+.web__modal__close:hover {
+    background: var(--primary-bg-color);
+}
 
 /* contact */
 section.contact {
@@ -630,7 +600,6 @@ section.contact {
     font-size: 1.5rem;
     line-height: 300px;
     position: relative;
-
 }
 .circle__line {
     flex: 1;
@@ -645,7 +614,6 @@ section.contact {
 .circle__line.right {
     margin-left: 1rem;
 }
-
 .contact__arrow {
     font-size: 3rem;
     margin-top: 4rem;
@@ -653,7 +621,6 @@ section.contact {
 .contact__arrow.rotate {
     transform: rotate(180deg);
 }
-
 .contact__title {
     background: var(--color-dark-gray);
     border-radius: 30px 30px 0 0 ;
@@ -667,7 +634,6 @@ section.contact {
     border-radius: 30px 30px 0 0 ;
     color: var(--color-yellow);
 }
-
 .contact__desc p {
     font-size: 2rem;
 }
@@ -681,27 +647,21 @@ section.contact {
     margin-right: 1rem;
     color: var(--primary-bg-color);
     padding-left: 1rem;
-
 }
 .contact__sns-item i{
     background:  rgb(63, 62, 62);
     border-radius: 50%;
     padding: .7rem;
     margin-bottom: 1rem;
-
 }
 .contact__sns-desc {
     text-align: center;
 }
-
 .contact__desc span {
     color: var(--color-black);
 }
 
-
-
 /* scrollup */
-
 .scrollup {
     position: fixed;
     right: 1rem;
@@ -715,7 +675,7 @@ section.contact {
 }
 .scrollup__icon {
     font-size: 1.5rem;
-    color: var(--color-white);
+    color: var(--primary-bg-color);
 }
 .scrollup.visible {
     bottom: 5rem;
