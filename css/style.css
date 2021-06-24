@@ -678,8 +678,9 @@ section.contact {
     margin-top: 3rem;
 }
 .contact__sns-item {
-    margin-right: 2rem;
+    margin-right: 1rem;
     color: var(--primary-bg-color);
+    padding-left: 1rem;
 
 }
 .contact__sns-item i{

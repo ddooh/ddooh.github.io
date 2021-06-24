@@ -45,7 +45,9 @@
 
     /* home */
     
-    
+    section.home {
+        height: 100%;
+    }
     .home-title {
         font-size: 8rem;
     }
