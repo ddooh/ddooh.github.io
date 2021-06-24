@@ -45,30 +45,53 @@
 
     /* home */
     
-    .home-back {
-        display: block;
-    }
+    
     .home-title {
-        font-size: 5rem;
+        font-size: 8rem;
+    }
+
+    
+    .home-load span {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .home-sub__title {
+        width: 50%;
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+    }
+    .home-sub__title p {
+        font-size: 1rem;
+    }
+
+    .home-sub__title img {
+        width: 25%;
     }
 
     
 
     /* about */
-    
+    .about__title {
+        text-align: center;
+        padding: 0;
+    }
     .about-inner {
         flex-direction: column;
         padding: 0;
     }
     .about-img {
-        margin: 0 auto;
         position: relative;
     }
     .about__download {
         position: absolute;
-        bottom: 3%;
-        left: 70%;
-        transform: translateX(-50%);
+        bottom: -18%;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    .about-container {
+        margin-top: 5rem;
     }
     .about-container__item {
         margin: 1.5rem auto;
@@ -78,6 +101,7 @@
     .skill-container {
     width: 50%;
     margin: 0 auto;
+    margin-top: -7rem;
     }
 
     .skill-container .col-lg-3 {
