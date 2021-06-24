@@ -151,8 +151,8 @@ header #logo img {
 }
 .home-title {
     position: absolute;
-    top: 1rem;
-    left: 2rem;
+    top: 3%;
+    left: 0;
     font-size: 15rem;
     color: var(--color-yellow);
     z-index: 100;
