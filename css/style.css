@@ -231,6 +231,7 @@ section.about {
     transform: translatex(-50%);
     padding: .5rem;
     background: var(--color-yellow);
+    border-radius: 10px;
     width: 150px;
     text-align: center;
 }
@@ -240,6 +241,10 @@ section.about {
 .about-container__item h2 {
     text-transform: uppercase;
     margin-bottom: .5rem;
+}
+
+.about__download:hover {
+    opacity: .7;
 }
 
 
@@ -350,10 +355,10 @@ section.design {
 .item__container-img {
     position: relative;
     padding: 1rem .7rem;
-    transition: 300ms;
 }
 .item__container-img img {
     border-radius: 30px;
+    transition: 300ms;
 }
 
 .item__container-desc a {
@@ -363,12 +368,12 @@ section.design {
     transform: translate(-50%, -50%);
     border-radius: 10px;
     padding: .5rem;
-    background: var(--primary-bg-color);
-    color: var(--color-dark-gray);
+    background: var(--color-yellow);
     text-align: center;
     opacity: 0;
     transition: 300ms;
 }
+
 
 .item__container-desc p {
     padding-top: 1rem;
@@ -485,6 +490,7 @@ section.web {
 .slider__buttons a{
     padding: .5rem;
     background: var(--color-yellow);
+    border-radius: 10px;
     transition: 300ms;
 }
 .slick__button:first-child {
