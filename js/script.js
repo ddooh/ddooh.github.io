@@ -33,6 +33,14 @@ $(document).ready(function() {
         $(this).addClass('active');
     })
 
+    var $startBtn = $('.start__btn');
+    $startBtn.click(function(e){
+	    e.preventDefault();
+		var link = $(this).children('a').attr('data-link');
+		var $target = $(link);
+		var distance = $target.offset().top;
+        $('html, body').animate({scrollTop: distance});
+    })
 
 	// my skills
 	var $pline = $('.progressbar.line');
