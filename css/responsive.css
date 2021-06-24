@@ -155,10 +155,23 @@
         max-width: 568px;
     }
 
+    .home-title {
+        padding-top: 1.8rem;
+        font-size: 5rem;
+    }
+
+    .sub-desc p {
+       font-size: 1.5rem;
+    }
+
+    .sub-desc a {
+        font-size: .8rem;
+        padding: .3rem;
+    }
+
     .home-load span {
         width: 100px;
         height: 100px;
-        border: 1px solid #000;
     }
 
 }
