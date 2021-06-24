@@ -216,9 +216,6 @@ section.about {
     padding: 2rem 0 2rem 7rem;
     text-align: left;
 }
-.about__title h3 {
-    z-index: 10;
-}
 
 .about-img {
     position: relative;
@@ -329,7 +326,7 @@ section.about {
 }
 
 section.design {
-    background: url(../img/bgimg02-02.jpg) no-repeat center/cover;
+    background: url(../img/bg-design-02.jpg) no-repeat center/cover;
     padding: 8rem 0;
 }
 .design__title {
@@ -438,7 +435,7 @@ section.design {
 
 section.web {
     padding: 15rem 0;
-    background: url(../img/bging03-03.jpg) no-repeat center/cover;
+    background: url(../img/bg-web-03.jpg) no-repeat center/cover;
 }
 
 .slider__content {
@@ -611,7 +608,7 @@ section.contact {
     text-align: center;
     background: url() no-repeat center/cover;
     padding-top: 3rem;
-    background: var(--color-yellow);
+    background: var(--color-bg-color);
 }
 .circle__wrap {
     display: flex;
@@ -653,7 +650,7 @@ section.contact {
 }
 
 .contact__title {
-    background: var(--color-dark-gray);
+    background: var(--color-yellow);
     border-radius: 30px 30px 0 0 ;
     margin-top: 5rem;
     padding: 5rem;
@@ -661,7 +658,7 @@ section.contact {
 .contact__desc {
     margin-top: 5rem;
     padding: 5rem 0;
-    background: var(--color-dark-gray);
+    background: var(--color-yellow);
     border-radius: 30px 30px 0 0 ;
     color: var(--color-black);
 }
