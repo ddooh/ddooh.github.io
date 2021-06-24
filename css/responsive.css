@@ -50,24 +50,35 @@
         font-size: 8rem;
     }
 
-    
+    .home-load {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 2rem;
+    }
     .home-load span {
         width: 150px;
         height: 150px;
+    }
+
+    .home-load span:nth-child(2),
+    .home-load  span:nth-child(3),
+    .home-load  span:nth-child(4),
+    .home-load  span:nth-child(5) {
+        margin-left: 0;
     }
     
     .home-sub__title {
         width: 50%;
         position: absolute;
         bottom: 5%;
-        right: 5%;
+        right: 0;
     }
     .home-sub__title p {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .home-sub__title img {
-        width: 25%;
+        width: 30%;
     }
 
     
