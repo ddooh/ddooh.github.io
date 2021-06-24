@@ -27,6 +27,7 @@ ul {
 a{
     text-decoration: none!important;
     color: inherit!important;
+    cursor: pointer;
 }
 
 
@@ -123,7 +124,6 @@ header #logo img {
     position: relative;
 }
 .home-sub__title {
-    border: 1px solid #000;
     position: absolute;
     bottom: 10%;
     right: 10%;
@@ -133,10 +133,10 @@ header #logo img {
     font-size: 3rem;
 }
 .sub-desc a {
-    border: 1px solid #000;
     background: var(--primary-bg-color);
-    padding: 1rem;
+    padding: .6rem;
 }
+
 .sub-img__left{
     text-align: left;
 }
@@ -155,7 +155,6 @@ header #logo img {
     font-size: 15rem;
     color: var(--color-yellow);
     z-index: 100;
-    /* border: 1px solid #000; */
 }
 
 .home-back__inner {
@@ -261,15 +260,16 @@ section.about {
 /* skill */
 
 .skill-container {
-    margin-top: -8rem;
+    margin-top: -22rem;
 }
 .skill-container .row {
     background: var(--primary-bg-color);
     border-radius: 10px;
     padding: 2rem 0 2rem 1.2rem;
-    margin-top: -3rem;
 }
-
+.title-color {
+    margin: 1rem 0;
+}
 .progress-list li .line {
     position: relative;
 }
@@ -456,7 +456,7 @@ section.design {
 
 section.web {
     padding: 15rem 0;
-    background: url(../img/bgimg03-03.jpg) no-repeat center/cover;
+    background: url(../img/bging03-03.jpg) no-repeat center/cover;
 }
 
 .slider__content {
@@ -629,6 +629,7 @@ section.contact {
     text-align: center;
     background: url() no-repeat center/cover;
     padding-top: 3rem;
+    background: var(--color-yellow);
 }
 .circle__wrap {
     display: flex;
