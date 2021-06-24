@@ -210,10 +210,11 @@ header #logo img {
 
 /* about     */
 section.about {
-    background: url(../img/포폴배경1-01.jpg) no-repeat center/cover;
+    background: url(../img/bg-about.jpg) no-repeat center/cover;
 }
 .about__title {
-    padding-top: 2rem;
+    padding: 2rem 0 2rem 7rem;
+    text-align: left;
 }
 .about__title h3 {
     z-index: 10;
@@ -247,9 +248,7 @@ section.about {
 
 
 /* skill */
-.skill {
-    border: 1px solid #000;
-}
+
 .skill-container {
     margin-top: -5rem;
 }
