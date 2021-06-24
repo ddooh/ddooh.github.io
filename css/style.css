@@ -213,20 +213,10 @@ section.about {
     background: url(../img/포폴배경1-01.jpg) no-repeat center/cover;
 }
 .about__title {
-    position: relative;
     padding-top: 2rem;
 }
 .about__title h3 {
     z-index: 10;
-}
-.about__title span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10%;
-    height: 30px;
-    background: var(--color-yellow);
-    z-index: -2;
 }
 
 .about-img {
