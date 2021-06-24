@@ -211,7 +211,7 @@ header #logo img {
 
 /* about     */
 section.about {
-    background: url(../img/bg-img01.jpg) no-repeat center/cover;
+    background: url() no-repeat center/cover;
     height: 100vh;
 }
 .about__title {
@@ -347,7 +347,7 @@ background: red;
 /* design */
 
 section.design {
-    background: url(../img/bg-img02.jpg) no-repeat center/cover;
+    background: url(../img/bgimg02-02.jpg) no-repeat center/cover;
     padding: 8rem 0;
 }
 .design__title {
@@ -456,7 +456,7 @@ section.design {
 
 section.web {
     padding: 15rem 0;
-    background: url(../img/bg-img03.jpg) no-repeat center/cover;
+    background: url(../img/bgimg03-03.jpg) no-repeat center/cover;
 }
 
 .slider__content {
@@ -627,7 +627,7 @@ section.web {
 /* contact */
 section.contact {
     text-align: center;
-    background: url(../img/bg-img04.jpg) no-repeat center/cover;
+    background: url() no-repeat center/cover;
     padding-top: 3rem;
 }
 .circle__wrap {
@@ -635,8 +635,8 @@ section.contact {
     align-items: center;
 }
 .contact__click-circle {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     background: var(--color-dark-gray);
     color: var(--primary-bg-color);
