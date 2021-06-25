@@ -60,6 +60,23 @@ body {
     display: flex;
 }
 
+/* skip */
+#skip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    background: var(--primary-bg-color);
+    color: var(--color-dark-gray);
+    z-index: 9999;
+    text-align: center;
+}
+#skip:focus
+{
+    transform: translateY(0);
+}
+
 /* header */
 header {
     z-index: 999;
