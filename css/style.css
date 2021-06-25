@@ -158,7 +158,7 @@ header #logo img {
 .start__btn a{
     background: var(--primary-bg-color);
     font-size: 1.5rem;
-    padding: .6rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.8rem;
     border-radius: 10px;
 }
 .start__btn a:hover {
