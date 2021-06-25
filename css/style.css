@@ -272,7 +272,7 @@ section.about {
 .progressbar svg path:first-child {
     stroke: rgba(var(--rgb-black), 0.09);
 }
-/* .progressbar.border {
+.progressbar.border {
     border: 1px solid transparent;
     box-sizing: border-box;
 }
@@ -290,7 +290,7 @@ section.about {
     margin: 0 auto 25px;
     width: 170px;
     height: 85px;
-} */
+}
 
 .progressbar.circle .progressbar-text {
     position: absolute;
