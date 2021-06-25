@@ -111,7 +111,8 @@ $(document).ready(function() {
 		$(this).hide();
 	});
 	
-	$('.modal__close').click(function(){
+	$('.modal__close').click(function(event){
+		event.preventDefault();
 		$('.design__modal').hide();
 	})
 
@@ -134,7 +135,8 @@ $(document).ready(function() {
 		$(this).hide();
 	});
 	
-	$('.web__modal__close').click(function(){
+	$('.web__modal__close').click(function(event){
+		event.preventDefault();
 		$('.web__modal').hide();
 	})
 	
