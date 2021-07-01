@@ -78,6 +78,13 @@
     .home-sub__title img {
         width: 30%;
     }
+    .sub-desc{
+        padding-left: .5rem;
+    }
+    .sub-img__right,
+    .sub-img__left {
+        padding: .5rem;
+    }
     /* about */
     .about__title {
         text-align: center;
@@ -137,6 +144,9 @@
     .slider__content {
         flex-direction: column;
         text-align: center;
+    }
+    .slider__desc {
+        padding-left: 0;
     }
     .slick-prev {
         left: 0;
