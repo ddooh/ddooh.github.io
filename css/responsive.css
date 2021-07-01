@@ -146,7 +146,7 @@
         text-align: center;
     }
     .slider__desc {
-        padding-left: 0;
+        padding: 0;
     }
     .slick-prev {
         left: 0;
@@ -193,4 +193,10 @@
     .about__button {
         display: flex;
     }
+
+/* web     */
+.slider__buttons a {
+    font-size: .8rem;
+}
+
 }
