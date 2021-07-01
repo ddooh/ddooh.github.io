@@ -90,11 +90,20 @@
     .about-img {
         position: relative;
     }
-    .about__download {
+    .about__button {
         position: absolute;
-        bottom: -18%;
+        bottom: -20%;
         left: 50%;
         transform: translatex(-50%);
+    }
+    .about__button a {
+        display: inline-block;
+        width: 150px;
+        padding: .5rem;
+        background: var(--color-yellow);
+        border-radius: 10px;
+        text-align: center;
+        margin-right: 5px;
     }
     .about-container {
         margin-top: 5rem;
@@ -169,6 +178,9 @@
     margin-top: -4rem;
     }
     .about__title h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .about__button {
+        display: flex;
     }
 }

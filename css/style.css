@@ -229,17 +229,22 @@ section.about {
     text-align: center;
     padding-top: 3rem;
 }
-.about__download {
+.about__button {
     position: absolute;
     bottom: 10%;
     left: 50%;
     transform: translatex(-50%);
+}
+.about__button a {
+    display: inline-block;
+    width: 150px;
     padding: .5rem;
     background: var(--color-yellow);
     border-radius: 10px;
-    width: 150px;
     text-align: center;
+    margin-right: 5px;
 }
+
 .about-container__item {
     margin-bottom: 1.5rem;
 }
