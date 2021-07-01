@@ -79,7 +79,7 @@
         width: 30%;
     }
     .sub-desc{
-        padding-left: .5rem;
+        padding: .5rem;
     }
     .sub-img__right,
     .sub-img__left {
@@ -173,11 +173,14 @@
         font-size: 5rem;
     }
     .sub-desc p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .start__btn a{
-        font-size: 1rem;
+        display: block;
+        font-size: .9rem;
         border-radius: 10px;
+        width: 80px;
+        text-align: center;
     }
     .home-load span {
         width: 100px;
